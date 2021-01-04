@@ -6251,7 +6251,7 @@ def tora(livro=None, capitulo=None, versiculo=None, debug=False):
 
 
 if __name__ == '__main__':
-    if len(sys.arv) in range(1, 4):
+    if len(sys.argv) in range(1, 4):
         if len(sys.argv) == 1:
             livro = None
             capitulo = None
